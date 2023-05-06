@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'work sans', corbel, 'Gill Sans MT', sans-serif ;    
+}
+body{
+    background-color: whitesmoke;
+}
+#refHome{
+    width: max-content;
+    padding: 5px;
+    margin: 20px 50px;
+}
+a{
+    text-decoration: none;
+    color: steelblue;
+    font: 500 1rem 'work sans';
+}
+h2{    
+    width: max-content;
+    padding: 10px;
+    padding-left: 0;
+    margin: 20px 0 0 50px;
+    color: burlywood;
+}
+p{
+    margin: 0 0 10px 50px;
+    font: 500 1rem 'work sans medium';
+    color: black;    
+}
+
+fieldset{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-content: space-between;
+    gap: 15px;
+    padding-left: 10px;
+}
+fieldset div{
+    display: flex;
+    
+}
+legend{
+    padding: 5px;
+}
+label{
+    width: 200px;
+    font: 500 1rem 'work sans medium';
+    color: black;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    background-color: transparent;
+    color: black;
+    font: 500 1rem 'work sans';
+    width: 250px;
+}
+button{
+    margin-top: 20px;
+    align-self: center;
+    height: 35px;
+    width: 130px;
+    font: 500 1rem 'work sans light';
+    background-color: steelblue;
+    color: mintcream;
+    transition: 0.8s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+button:hover{
+    font: 500 1rem 'work sans';
+    color: whitesmoke;
+    background-color: #333;
+    letter-spacing: 0.05em;
+    
+}
+table{
+    border: thin solid black;
+    width: 500px;
+    margin: 10px 0 20px 50px;
+}
+thead tr{
+    background-color: burlywood;
+}
+thead th, tbody td{
+    border-right: thin solid black;
+}
+thead th:last-child, tbody td:last-child{
+    border-right: none;
+}
+th{
+    text-align: left;   
+    padding: 5px;
+}
+tbody td{
+    border-bottom: thin solid black;
+    padding: 5px;
+}
+tbody tr:last-child td{
+    border-bottom: none;
+}
+.subjName{
+    font: 500 1rem 'work sans medium';
+    color: steelblue;
+    letter-spacing: 0.03em;
+}
