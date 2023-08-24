@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-size: 10px;
+}
+div{
+    background-color: lightsteelblue;
+    border: thin solid #333;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h3{
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+}
+p{
+    font-size: 1.8em;
+    font-weight: 300;
+    color: lightcoral;
+    padding: 5px;
+}
+span{
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 400;   
+}
